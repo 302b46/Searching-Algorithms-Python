@@ -108,9 +108,7 @@ def printoutput(start, end, path, distance, expandedlist):
     
 
 
-def main():
-    start=input("Enter start city:")
-    goal = input("Enter start city:")
+def result(start,goal):
     makedict()
     print(start+" -> " +goal)
     astar(start, goal)
