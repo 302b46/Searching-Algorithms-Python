@@ -43,7 +43,7 @@ def makedict():
 
 def makehuristikdict():
     h = {}
-    with open(r"Hromania.txt", 'r') as file:   #Heuristic values
+    with open(r"HeuristicRomania.txt", 'r') as file:   #Heuristic values
         for line in file:
             line = line.strip().split(",")
             node = line[0].strip()
