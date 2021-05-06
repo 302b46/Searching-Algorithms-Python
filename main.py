@@ -1,6 +1,7 @@
 import BFS
 import UCS
 import GBFS
+import astar
 if __name__ == '__main__':
 
 
@@ -17,7 +18,7 @@ if __name__ == '__main__':
 
     if choice == 1:
         print("*--------------------------------------A* IMPLEMENTATION--------------------------------------*\n")
-
+        astar.result(start,goal)
     elif choice == 2:
         print("*--------------------------------------BFS IMPLEMENTATION--------------------------------------*\n")
         BFS.result(start, goal)
