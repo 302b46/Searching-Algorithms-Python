@@ -38,7 +38,7 @@ class Graph:
                     heappush(edge, (new_cost, node))
             print(', '.join([str(n) for n in edge]))
         if found: print(); return came_from, currentCost[goal]
-        else: print('No path found'.format(start, goal)); return None, inf
+        else: print('No path from {} to {}'.format(start, goal)); return None, inf
 
     @staticmethod
     def print_path(came_from, goal):
