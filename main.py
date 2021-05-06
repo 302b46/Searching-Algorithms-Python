@@ -2,6 +2,7 @@ import BFS
 import UCS
 import GBFS
 import astar
+import DFS
 if __name__ == '__main__':
 
 
@@ -24,7 +25,7 @@ if __name__ == '__main__':
         BFS.result(start, goal)
     elif choice == 3:
         print("*--------------------------------------DFS IMPLEMENTATION--------------------------------------*\n")
-
+        DFS.result(start,goal)
     elif choice == 4:
         print("*--------------------------------------UCS IMPLEMENTATION--------------------------------------*\n")
         UCS.result(start, goal)
