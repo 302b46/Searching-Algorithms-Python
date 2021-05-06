@@ -31,7 +31,7 @@ romania = {}
 
 
 def makedict():
-    file = open(r"romania.txt", 'r')
+    file = open(r"romania.txt", 'r')   #vertices,neighbors & weights
     for string in file:
         line = string.split(',')
         ct1 = line[0]
@@ -43,7 +43,7 @@ def makedict():
 
 def makehuristikdict():
     h = {}
-    with open(r"Hromania.txt", 'r') as file:
+    with open(r"Hromania.txt", 'r') as file:   #Heuristic values
         for line in file:
             line = line.strip().split(",")
             node = line[0].strip()
