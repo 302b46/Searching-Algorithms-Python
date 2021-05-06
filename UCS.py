@@ -66,7 +66,7 @@ graph.add_edge('Timisoara', 'Lugoj', 111)
 graph.add_edge('Sibiu', 'Oradea', 151)
 graph.add_edge('Sibiu', 'Arad', 140)
 graph.add_edge('Sibiu', 'Fagaras', 99)
-graph.add_edge('Sibiu', 'RimnicuVilcea', 80)
+graph.add_edge('Sibiu', 'Rimnicu Vilcea', 80)
 
 graph.add_edge('Oradea', 'Zerind', 71)
 graph.add_edge('Oradea', 'Sibiu', 151)
@@ -74,20 +74,20 @@ graph.add_edge('Oradea', 'Sibiu', 151)
 graph.add_edge('Lugoj', 'Timisoara', 111)
 graph.add_edge('Lugoj', 'Mehadia', 70)
 
-graph.add_edge('RimnicuVilcea', 'Sibiu', 80)
-graph.add_edge('RimnicuVilcea', 'Pitesti', 97)
-graph.add_edge('RimnicuVilcea', 'Craiova', 146)
+graph.add_edge('Rimnicu Vilcea', 'Sibiu', 80)
+graph.add_edge('Rimnicu Vilcea', 'Pitesti', 97)
+graph.add_edge('Rimnicu Vilcea', 'Craiova', 146)
 
 graph.add_edge('Mehadia', 'Lugoj', 70)
 graph.add_edge('Mehadia', 'Dobreta', 75)
 
 graph.add_edge('Craiova', 'Dobreta', 120)
-graph.add_edge('Craiova', 'RimnicuVilcea', 146)
+graph.add_edge('Craiova', 'Rimnicu Vilcea', 146)
 graph.add_edge('Craiova', 'Pitesti', 138)
 graph.add_edge('Craiova', 'Pitesti', 138)
 
 graph.add_edge('Pitesti', 'Craiova', 138)
-graph.add_edge('Pitesti', 'RimnicuVilcea', 97)
+graph.add_edge('Pitesti', 'Rimnicu Vilcea', 97)
 graph.add_edge('Pitesti', 'Bucharest', 101)
 
 graph.add_edge('Fagaras', 'Bucharest', 211)
@@ -101,7 +101,6 @@ graph.add_edge('Bucharest', 'Fagaras', 211)
 graph.add_edge('Bucharest', 'Giurgiu', 90)
 
 graph.add_edge('Giurgiu', 'Bucharest', 90)
-
 
 def result(start, dest):
     path, cost = graph.UCS(start, dest)
